@@ -10,10 +10,10 @@ export default function Hero() {
       <section className="relative flex items-center justify-center">
         <div className= "w-full h-dvh">
           <Canvas shadows camera={{ position: [-10, 5, -10] }}>
-            <ambientLight color="darkgoldenrod" intensity={.5} />
-            <directionalLight color="darkgoldenrod" position={[1, 4, 1]} intensity={.5}/>
-            <pointLight position={[-2.9, 3.5, -3]} color="goldenrod" intensity={10}/>
-            <pointLight position={[-4.5, 1.7, -5.8]} color="khaki" intensity={5}/>
+            <ambientLight color="darkgoldenrod" intensity={.05} />
+            <directionalLight color="darkgoldenrod" position={[1, 4, 1]} intensity={.1}/>
+            <pointLight position={[-2.9, 3.5, -3]} color="goldenrod" intensity={.5}/>
+            <pointLight position={[-4.5, 1.7, -5.8]} color="khaki" intensity={.1}/>
             <Ufo/>
             <Building/>
             <CoffeeBeam
@@ -33,14 +33,14 @@ export default function Hero() {
                 fade                // Enables fading as stars get further away
                 speed={2}           // Animation speed (for slight movement)
             />
-            <pointLight position={[12, -4, 2]} color="orange" intensity={20}/>
-            <pointLight position={[16, -4, 6]} color="orange" intensity={20}/>
-            <pointLight position={[4, -4, 10]} color="orange" intensity={20}/>
-            <pointLight position={[8, -4, 14]} color="orange" intensity={20}/>
-            <pointLight position={[-6, -4, 20]} color="orange" intensity={20}/>
-            <pointLight position={[-1, -4, 24]} color="orange" intensity={20}/>
-            <pointLight position={[26, -4, -3]} color="orange" intensity={20}/>
-            <pointLight position={[22, -4, -8]} color="orange" intensity={20}/>
+            <pointLight position={[12, -4, 2]} color="orange" intensity={.1}/>
+            <pointLight position={[16, -4, 6]} color="orange" intensity={.1}/>
+            <pointLight position={[4, -4, 10]} color="orange" intensity={.1}/>
+            <pointLight position={[8, -4, 14]} color="orange" intensity={.1}/>
+            <pointLight position={[-6, -4, 20]} color="orange" intensity={.1}/>
+            <pointLight position={[-1, -4, 24]} color="orange" intensity={.1}/>
+            <pointLight position={[26, -4, -3]} color="orange" intensity={.1}/>
+            <pointLight position={[22, -4, -8]} color="orange" intensity={.1}/>
           </Canvas>
         </div>
       </section>
